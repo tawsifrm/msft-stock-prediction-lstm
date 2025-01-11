@@ -7,7 +7,7 @@ This project utilizes machine learning techniques, specifically Long Short-Term 
 - Python 3.x
 - TensorFlow and Keras for building and training the LSTM model
 - Pandas for data manipulation
-- Matplotlib for data visualization
+- Matplotlib and VBA for data visualization
 - Scikit-learn for data preprocessing (StandardScaler)
 - NumPy for numerical computations
 
@@ -33,3 +33,12 @@ The project includes visualizations of both actual and predicted closing prices 
 1. Install the required libraries (`tensorflow`, `pandas`, `matplotlib`, `scikit-learn`) using `pip install`.
 2. Ensure the CSV file containing Microsoft stock data is named `MicrosoftStock.csv` and located in the same directory as the code.
 3. Run the code to train the model and generate predictions.
+
+## VBA Script for Data Visualization
+In addition to the Python-based visualization, a VBA script is provided for users who prefer to use Excel for data visualization. The VBA script reads the stock data from `MicrosoftStock.csv` and generates charts for actual and predicted stock prices.
+
+### Using the VBA Script
+1. Open Excel and press `Alt + F11` to open the VBA editor.
+2. Insert a new module by clicking `Insert` > `Module`.
+3. Copy and paste the VBA code from `StockVisualization.vba` into the module.
+4. Run the script by pressing `F5`. Ensure that `MicrosoftStock.csv` is in the same directory as the Excel file.
